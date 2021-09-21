@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Noticias</title>
+	<link rel="stylesheet" type="text/css" href="../css/noticias.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<div class="navegador">
+		<ul>
+			<li> <a href="../index.html"> Home </a> <img src="../img/flecha_desplegable.png" class="toggle"> </li>
+			<li> <a href="planes.html"> Planes </a> </li>
+			<li> <a href="reservas.html"> Reservas </a> </li>
+			<li> <a href="bioseguridad.html"> Bioseguridad </a> </li>
+			<li> <a href="noticias.html"> Noticias </a> </li>
+			<li> <a href="gym_chat.html"> Nosotros </a> </li>
+			<a href="login.html" class="boton"> Ingresar </a> </li>
+		</ul>
+	</div>
+	
+	<div class="content">
+
+		<div class="TituloNews">
+		<h1> NOTICIAS </h1>
+		<p> Lo último en información deportiva </p>		
+	</div>
+
+	<div class="NoticiaP">
+		<img src="../img/imagen_de_pesas_en_gym.jpg">
+	</div>
+
+	<div class="NoticiasS">
+		<div class="CuadroN">
+			<img src="../img/persona_haciendo_lagardijas.jpg">
+			<a href=""> Consejos de entrenamiento para quemar grasa </a>
+			<p> Consejos de entrenamiento para quemar grasa Si estás en búsqueda de perder peso te dejamos la guía de entrenamiento perfecta para lograr... </p>
+		</div>
+		<div class="CuadroN">
+			<img src="../img/persona_haciendo_pull_ups.jpg">
+			<a href=""> Alejandro Uribe, la disciplina detrás de los músculos </a>
+			<p> Alejandro Uribe, Disciplina detrás de los músculos Jhoni Alejandro comenzó a entrenar desde los 19 años buscando un cuerpo tonificado y fuerte... </p>
+		</div>
+		<div class="CuadroN">
+			<img src="../img/nutricionista_dando_un_diagnostico.jpg">
+			<a href=""> Los beneficios de tener tener un nutricionista </a>
+			<p> Los beneficios de tener un nutricionista Sabes que tienes que comer bien pero no tienes ni idea que incluir en tu mercado?.... </p>
+		</div>
+		<div class="CuadroN">
+			<img src="../img/personas_haciendo_cardio.jpg">
+			<a href=""> Cinema Cardio </a>
+			<p> Baja de peso y disfruta tus series favoritas Athletic cuenta con un lugar único en Latinoamérica en donde puedes entrenar, quemar calorías... </p>
+		</div>
+		<div class="CuadroN">
+			<img src="../img/imagen_de_tres_personas_tomando_cerveza.jpg">
+			<a href=""> 6 de agosto día internacional de la cerveza </a>
+			<p> 6 de agosto día internacional de la cerveza Pese a su sabor amargo, muchos son los defensores de esta bebida que, según... </p>
+		</div>
+		<div class="CuadroN">
+			<img src="../img/imagen_de_desayuno.jpg">
+			<a href=""> Cinco desayunos proteicos </a>
+			<p> Cinco desayunos proteicos El desayuno es el primer contacto que tienes en el día con la comida y una oportunidad única para... </p>
+		</div>
+	</div>
+		
+	</div>
+
+
+	<div class="bottomUp">
+		<div>
+			<img src="../img/icono_perfil.png" class="toggledos"> 
+			<p> Contactos </p>
+		</div>  
+	</div>
+
+	<div class="datos">
+		<div class="bottom">
+		<ul>
+			<li> <img src="../img/icono_perfil.png" alt="Wh_icon" width="40px" class="contactos"> </li>
+			<li> <p>Juan Manuel Volkmar</p> </li>
+			<li> <img src="../img/icono_perfil.png" alt="Email_Icon" width="40px" class="contactos"> </li>
+			<li> <p>Sebastian Granado Prada</p> </li>
+			<a href="#"> <img src="../img/icono_de_facebook.png" alt="Facebook_Icon" width="50px" class="boton2"> </a>
+			<a href="#"> <img src="../img/icono_instagram.png" alt="Instagram_Icon" width="50px" class="boton2"> </a> 
+			<a href="#"> <img src="../img/icono_de_youtube.png" alt="YouTube_Icon" width="50px" class="boton2"> </a> 
+		</ul>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		const card = document.querySelector('.navegador');
+		const cardtoggle = document.querySelector('.toggle');
+		cardtoggle.onclick = function(){
+			card.classList.toggle('active');
+		}
+	</script>
+
+	<script type="text/javascript">
+		const final = document.querySelector('.datos');
+		const finaltoggle = document.querySelector('.toggledos');
+		finaltoggle.onclick = function(){
+			final.classList.toggle('active');
+		}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Planes </title>
+	<link rel="stylesheet" type="text/css" href="../css/planes.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<div class="navegador">
+		<ul>
+			<li> <a href="../index.html"> Home </a> <img src="../img/flecha_desplegable.png" class="toggle"> </li>
+			<li> <a href="planes.html"> Planes </a> </li>
+			<li> <a href="reservas.html"> Reservas </a> </li>
+			<li> <a href="bioseguridad.html"> Bioseguridad </a> </li>
+			<li> <a href="noticias.html"> Noticias </a> </li>
+			<li> <a href="gym_chat.html"> Nosotros </a> </li>
+			<a href="login.html" class="boton"> Ingresar </a> </li>
+		</ul>
+	</div>
+
+	<div class="Lugar">
+		
+		<label for="Ciudad"> Ciudad </label>
+		<select id="Ciudad" name="Ciudad">
+			<option value="Ciudad1"> Ciudad 1 </option>
+			<option value="Ciudad2"> Ciudad 2 </option>
+			<option value="Ciudad3"> Ciudad 3 </option>
+			<option value="Ciudad4"> Ciudad 4 </option>
+		</select>
+
+		<label for="Sede"> Sede </label>
+		<select id="Sede" name="Sede">
+			<option value="Sede1"> Sede 1 </option>
+			<option value="Sede2"> Sede 3 </option>
+			<option value="Sede3"> Sede 2 </option>
+		</select>
+
+	</div>
+
+	<div class="Planes">
+
+		<div class="op1">
+
+			<div class="encabezado">
+				<h2> EASY </h2>
+				<h3> $39000 </h3>
+				<p> Mantenimiento al anual </p>
+				<h4> $49900 </h4> <br>
+		 		<p> Inscripción </p>
+		 		<h4> $0 </h4>
+			</div>
+			
+		 	<ul>
+		 		<li> Cuota de inscripción gratis </li>
+		 		<li> Zona cardio </li>
+		 		<li> Musculación </li>
+		 		<li> 100 máquinas de musculación y de cardio </li>
+		 		<li> Zona funcional </li>
+		 	</ul>
+		 	<div class="escoger">
+		 		<input type="Submit" value="ESCOGER PLAN">
+		 	</div>
+		</div>
+
+		<div class="op2">
+		 	<div class="encabezado">
+				<h2> VIP </h2>
+				<h3> $49000 </h3>
+				<p> Mantenimiento al anual </p>
+				<h4> $49900 </h4> <br>
+		 		<p> Inscripción </p>
+		 		<h4> $0 </h4>
+			</div>
+		 	<ul>
+		 		<li> Cuota de inscripción gratis </li>
+		 		<li> Zona cardio </li>
+		 		<li> Musculación </li>
+		 		<li> 100 máquinas de musculación y de cardio </li>
+		 		<li> Zona funcional </li>
+		 		<li> Acceso a los otros gimnasios de la red </li>
+		 		<li> Rutinas de entrenamiento y más. </li>
+		 		<li> Acceso con un amigx gratis los días: viernes, sábado y domingo </li>
+		 	</ul>
+		 	<div class="escoger">
+		 		<input type="Submit" value="ESCOGER PLAN">
+		 	</div>
+		</div>
+
+		<div class="op3">
+		 	<div class="encabezado">
+				<h2> VIP ANUAL </h2>
+				<h3> $499000 </h3>
+				<p> Mantenimiento al anual </p>
+				<h4> $0 </h4> <br>
+		 		<p> Inscripción </p>
+		 		<h4> $0 </h4>
+			</div>
+		 	<ul>
+		 		<li> Valor del mes pagando el valor total de tu Plan VIP Anual por anticipado </li>
+		 		<li> Ahorra $ 149.700 al año. </li>
+		 		<li> Cuota de inscripción gratis </li>
+		 		<li> Zona cardio </li>
+		 		<li> Musculación </li>
+		 		<li> 100 máquinas de musculación y de cardio </li>
+		 		<li> Zona funcional </li>
+		 		<li> Acceso a los otros gimnasios de la red </li>
+		 		<li> Rutinas de entrenamiento y más. </li>
+		 		<li> Acceso con un amigx gratis los días: viernes, sábado y domingo </li>
+		 	</ul>
+		 	<div class="escoger">
+		 		<input type="Submit" value="ESCOGER PLAN">
+		 	</div>
+		</div>
+	</div>
+
+	<div class="bottomUp">
+		<div>
+			<img src="../img/icono_perfil.png" class="toggledos"> 
+			<p> Contactos </p>
+		</div>  
+	</div>
+
+	<div class="datos">
+		<div class="bottom">
+		<ul>
+			<li> <img src="../img/icono_perfil.png" alt="Wh_icon" width="40px" class="contactos"> </li>
+			<li> <p>Juan Manuel Volkmar</p> </li>
+			<li> <img src="../img/icono_perfil.png" alt="Email_Icon" width="40px" class="contactos"> </li>
+			<li> <p>Sebastian Granado Prada</p> </li>
+			<a href="#"> <img src="../img/icono_de_facebook.png" alt="Facebook_Icon" width="50px" class="boton2"> </a>
+			<a href="#"> <img src="../img/icono_instagram.png" alt="Instagram_Icon" width="50px" class="boton2"> </a> 
+			<a href="#"> <img src="../img/icono_de_youtube.png" alt="YouTube_Icon" width="50px" class="boton2"> </a> 
+		</ul>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		const card = document.querySelector('.navegador');
+		const cardtoggle = document.querySelector('.toggle');
+		cardtoggle.onclick = function(){
+			card.classList.toggle('active');
+		}
+	</script>
+
+	<script type="text/javascript">
+		const final = document.querySelector('.datos');
+		const finaltoggle = document.querySelector('.toggledos');
+		finaltoggle.onclick = function(){
+			final.classList.toggle('active');
+		}
+	</script>
+
+</body>
+</html>
