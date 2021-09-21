@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+.navegador ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 3px;
+	background-color: #333;
+	overflow: hidden;
+	width: 99.58%;
+}
+
+.navegador li{
+	float: left;
+}
+
+.navegador li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	margin: 10px;
+	text-decoration: none;
+	border-radius: 2px;
+	font-family: 'Playfair Display', serif;
+}
+
+.toggle{
+	width: 32px;
+	float: right;
+	margin-top: -40px;
+	margin-left: 5px;
+	display: none;
+}
+
+.navegador li a:hover{
+	background-color: #e0d3c4;
+	color: black;
+	font-size: 16px;
+}
+
+.boton{
+	background-color: #d9ab57;
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	margin: 10px;
+	text-decoration: none;
+	border-radius: 2px;
+	font-family: 'Playfair Display', serif;
+}
+
+.boton:hover{
+	background-color: #e0d3c4;
+	color: black;
+	font-size: 16px;
+}
+
+
+@media only screen and (max-width: 892px) {
+  /* For mobile phones: */
+  .navegador li{
+    width: 100%;
+  }
+  .navegador{
+  	width: 99.59%;
+  	height: 80px;
+  	overflow: hidden;
+  }
+
+  .toggle{
+  	display: block;
+  	float: left;
+  	margin-left: 30%;
+  	padding: 6px;
+  	margin-top: -55.7px;
+  	transition: 0.8s;
+  }
+}
+
+@media only screen and (max-width: 892px) {
+  /* For mobile phones: */
+  .navegador .boton{
+    width: 87%;
+  }
+
+}
+
+.navegador.active{
+	height: auto;
+}
+
+
+.navegador.active .toggle{
+	transform: rotate(180deg);
+	transition: 0.8s;
+}
+
+.Principal{
+	padding: 10px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.Principal h1{
+	font-size: 40px;
+	font-family: 'Patrick Hand', cursive;
+	color: #d9ab57;
+	margin-bottom: 0px;
+}
+
+.Principal h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+	margin-top: 8px;
+	margin-bottom: 30px;
+}
+
+.Configuracion{
+	padding: 25px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.Configuracion label{
+	margin: 3%;
+	margin-right: 1%;
+	color: #d9ab57;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 40px;
+	border-radius: 5px;
+	padding: 8px;
+	text-align: center;
+}
+
+.Configuracion label:hover{
+	border-left: 2px solid #d9ab57;
+	border-bottom: 2px solid #d9ab57;
+}
+
+.Configuracion select{
+	width: 12%;
+	font-size: 20px;
+	font-family: 'Playfair Display', serif;
+	color: #333;
+}
+
+.Configuracion select:hover{
+	border-bottom: 2px solid #d9ab57;
+}
+
+
+.content{
+	width: 100%;
+	height: 2000px;
+}
+
+.reservas{
+	background-color: #f2ece4;
+	width: 18%;
+	margin: 15px 30px;
+	height: 180px;
+	padding: 20px;
+	float: left;
+	border-radius: 5px;
+}
+
+.reservas:hover{
+	border-left: 3px solid #333;
+}
+
+.nombre{
+	color: #d9ab57;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 25px;
+}
+
+#Agendado{
+	width: 100%;
+	margin-bottom: 25px;
+	font-family: 'Playfair Display', serif;
+	font-size: 15px;
+}
+
+.hora{
+	color: #d9ab57;
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	margin-bottom: 35px;
+	margin-left: 18px;
+}
+
+.tiempo{
+	margin-left: 5px;
+	margin-right: 20px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 16px;
+	margin-bottom: 35px;
+}
+
+.accion{
+	width: 25%;
+	height: 30px;
+	margin-left: 13px;
+	background-color: #d9ab57;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+.accion:hover{
+	background-color: #333;
+	color: white;
+	border-bottom: 3px solid #d9ab57;
+}
+
+.datos{
+	display: inline-block;
+	width: 100%;
+	margin-top: 5%;
+}
+
+
+.boton2{
+	background-color: #e0d3c4;
+	float: right;
+	display: block;
+	text-align: center;
+	padding: 8px 10px;
+	margin: 10px;
+	text-decoration: none;
+	border-radius: 5px;
+	font-family: 'Playfair Display', serif;
+	margin-top: 20px;
+}
+
+.boton2:hover{
+	background-color: #f2ece4;
+	color: black;
+	font-size: 16px;
+}
+
+.bottom ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 3px;
+	background-color: #333;
+	overflow: hidden;
+}
+
+.bottom li{
+	color: white;
+	float: left;
+	display: block;
+	text-align: center;
+	margin: 5px;
+	text-decoration: none;
+	border-radius: 2px;
+	font-family: 'Playfair Display', serif;
+}
+
+.contactos{
+	margin-top: 25px;
+}
+
+.bottom li p{
+	margin-top: 33px;
+}
+
+@media only screen and (max-width:1250px) {
+  /* For mobile phones: */
+  .datos{
+  	top: 0px;
+    width: 100%;
+    height: auto;
+  }
+
+  .bottom li{
+  	float: left;
+  }
+
+}
+
+.toggledos{
+	width: 20px;
+	float: right;
+	margin-top: -35px;
+	margin-left: 120px;
+	display: none;
+}
+
+.bottomUp p{
+	display: none;
+}
+
+@media only screen and (max-width:718px) {
+  /* For mobile phones: */
+  .datos{
+  	top: 0px;
+    width: 100%;
+    height: auto;
+    display: none;
+    margin-top: 0px;
+  }
+
+  .bottom li{
+  	float: none;
+  	padding: 4px;
+  }
+
+  .bottom li img{
+  	width: 16%;
+  	margin: 10px;
+  	margin-top: 24px;
+  	float: left;
+  }
+
+  .bottom li p{
+  	font-size: 100%;
+  }
+
+  .bottom a{
+  	padding: 5px;
+  	display: inline-block;
+  	background-color: #e0d3c4;
+  	width: 95%;
+  	border-radius: 5px;
+  	margin: 5px;
+  }
+
+  .boton2 {
+  	float: none;
+  	margin-left: 40%;
+  }
+
+.toggledos{
+  	float: left;
+  	display: block;
+  	width: 32px;
+  	padding: 5px;
+  	margin: 0px;
+  	margin-top: -1.3%;
+  	margin-left: 30%;
+  	transition: 1s;
+  }
+
+  .bottomUp{
+  	background-color:#d9ab57;
+  	display: inline-block;
+  	width: 95%;
+  	padding: 3%;
+  	margin: 0px;
+  	margin-bottom: -1%;
+  }
+
+  .bottomUp div{
+  	align-content: center;
+  	width: 80%;
+  	height: 30px;
+  	padding: 2%;
+  	padding-left: 0px;
+  	padding-right: 0px;
+  	margin-left: 10%;
+  	margin-right: 10%;
+  }
+
+  .bottomUp p{
+  	font-family: 'Playfair Display', serif;
+  	display: inline-block;
+  	float: right;
+  	margin-right: 20%;
+  	margin-top: 1%;
+  	color: black;
+  	font-size: 100%;
+  	width: 30%;
+  	height: 30px;
+  }
+
+  .datos.active{
+		display: block;
+		transition: 0.8s;
+	}
+
+}
+
+@media only screen and (max-width:775px) {
+	.Configuracion select{
+		width: 90%;
+		margin-bottom: 5%;
+		margin-top: 2%;
+	}
+}
+
+@media only screen and (max-width:1426px) {
+
+	.content{
+		background-color: red;
+		height: auto;
+	}
+
+	.reservas{
+		width: 25.45%;
+	}
+}
+
+@media only screen and (max-width:1266px) {
+
+	.content{
+		background-color: red;
+		height: auto;
+	}
+
+	.reservas{
+		width: 42%;
+	}
+
+	.accion{
+		margin-left: 5.7%;
+	}
+
+	#HoraInicio{
+		text-align: center;
+		width: 30%;
+	}
+
+	#HoraFin{
+		width: 30%;
+	}
+
+	.hora{
+		margin-left: 5%;
+	}
+}
+
+@media only screen and (max-width:1249px) {
+
+	.content{
+		background-color: red;
+		height: auto;
+	}
+
+	.reservas{
+		width: 90%;
+		margin-left: 3%;
+		margin-right: 5%;
+	}
+}
+
+@media only screen and (max-width:709px) {
+
+	.content{
+		background-color: red;
+		height: auto;
+		text-align: center;
+	}
+
+	.content select{
+		margin-top: 3%;
+	}
+
+	.content input{
+		margin-top: 3%;
+	}
+
+	.reservas{
+		width: 80%;
+		height: auto;
+		margin: 5.4%;
+	}
+
+	.accion{
+		margin-left: 2%;
+	}
+
+	#HoraInicio{
+		text-align: center;
+		width: 100%;
+	}
+
+	#HoraFin{
+		width: 100%;
+	}
+
+	.hora{
+		margin-left: 5%;
+	}
+
+}
