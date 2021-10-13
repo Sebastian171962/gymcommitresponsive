@@ -124,3 +124,18 @@ function estado(imagen,vida,ataque,defensa,ataquee,defensae,velocidad,id){
       velocidad.innerHTML = "Speed: " + data.stats[5].base_stat;
      })
 }
+function fondo(contenedor,id){
+
+    fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
+    .then(response => response.json())
+    .then(data => {
+        const {types} = data;
+        console.log(data)
+        setCardColor(types);
+     })
+
+    const setCardColor = types => {
+        const colorOne = colors[types[0].type.name];
+        contenedor.style.backgroundColor =  colorOne;
+    }
+}
