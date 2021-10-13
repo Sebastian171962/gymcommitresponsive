@@ -95,3 +95,18 @@ function equipo(){
 
 }
 let imagen, nombre, vida, ataque, defensa, ataquee, defensae, velocidad;
+function poketotal(){
+
+    imagen = document.getElementById("pokecomp");
+    nombre = document.getElementById("nombre");
+    vida = document.getElementById("vida");
+    ataque = document.getElementById("ataque");
+    defensa = document.getElementById("defensa");
+    ataquee = document.getElementById("ataque especial");
+    defensae = document.getElementById("defensa especial");
+    velocidad = document.getElementById("velocidad");
+    id = Math.round(Math.random()*(100-5)+parseInt(1));
+
+    estado(imagen,vida,ataque,defensa,ataquee,defensae,velocidad,id);
+    fondo(imagen,id);
+}
