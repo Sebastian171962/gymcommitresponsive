@@ -94,3 +94,4 @@ function equipo(){
     fondo(backg4,aleatoriot4);
 
 }
+let imagen, nombre, vida, ataque, defensa, ataquee, defensae, velocidad;
