@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans+KR:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans+KR:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #fefae0;
+}
+
+.navegador ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 3px;
+	background-color: #333;
+	overflow: hidden;
+	width: 99.58%;
+}
+
+.navegador li{
+	float: left;
+}
+
+.navegador li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	margin: 10px;
+	text-decoration: none;
+	border-radius: 2px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
