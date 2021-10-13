@@ -194,3 +194,122 @@ picture{
     border-radius: 50%;
     transition: 0.6s;
 }
+.pokemon1 p{
+    text-align: center;
+    padding: 2%;
+    background-color: #1b512d;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    border-radius: 30px;
+    margin: 0px;
+}
+
+.visualizacion h1{
+    width: 20%;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    margin: 5%;
+}
+
+.pokemon2{
+    border-radius: 30px;
+    align-content: center;
+    padding: 3%;
+    position: relative;
+    transition: 0.6s;
+    transform: scale(0.9);
+}
+
+.pokemon2:hover{
+    transform: scale(1);
+    transition: 0.7s;
+}
+
+.pokemon2 img{
+    width: 300px;
+    margin-bottom: 5%;
+    transition: 0.6s;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+.pokemon2 p{
+    text-align: center;
+    padding: 2%;
+    background-color: #1b512d;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    border-radius: 30px;
+    margin: 0px;
+}
+
+.teams{
+    margin: 0% 5%;
+}
+
+.descripciont h1{
+    background-color: #ffb703;
+    border-radius: 30px;
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 0px;
+}
+
+.descripciont p{
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 2% 5%;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+
+.descripciont input{
+    width: 15%;
+    height: auto;
+    margin: 0% 5%;
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    background-color: #023047;
+    padding: 0.5%;
+    border-radius: 30px;
+    opacity: 0.9;
+}
+
+.descripciont input:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.visualizaciont{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 3% 0%;
+}
+
+.visualizaciont img{
+    width: 200px;
+    margin: 1%;
+    transition: 0.6s;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    padding: 3%;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+.poke{
+    padding: 1%;
+    margin: 0.3%;
+    text-align: center;
+    width: 21%;
+    border-radius: 30px;
+    transition: 0.7s;
+}
