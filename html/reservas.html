@@ -1,0 +1,1664 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Reservas</title>
+	<link rel="stylesheet" type="text/css" href="../css/reservas.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<div class="navegador">
+		<ul>
+			<li> <a href="../index.html"> Home </a> <img src="../img/flecha_desplegable.png" class="toggle"> </li>
+			<li> <a href="planes.html"> Planes </a> </li>
+			<li> <a href="reservas.html"> Reservas </a> </li>
+			<li> <a href="bioseguridad.html"> Bioseguridad </a> </li>
+			<li> <a href="noticias.html"> Noticias </a> </li>
+			<li> <a href="gym_chat.html"> Nosotros </a> </li>
+			<li> <a href="pokemon.html"> Pokemon API </a> </li>
+			<a href="login.html" class="boton"> Ingresar </a> </li>
+		</ul>
+	</div>
+
+	<div class="Principal">
+		<h1> Reservaciones </h1>
+		<h2> Realiza reservaciones en los espacios de nuestras instalaciones </h2>
+	</div>
+
+	<div class="Configuracion">
+		<label for="Ciudad"> Ciudad </label>
+		<select id="Ciudad" name="Ciudad">
+			<option value="Ciudad1"> Ciudad1 </option>
+			<option value="Ciudad2"> Ciudad2 </option>
+			<option value="Ciudad3"> Ciudad3 </option>
+			<option value="Ciudad4"> Ciudad4 </option>
+		</select>
+
+		<label for="Sede"> Sede </label>
+		<select id="Sede" name="Sede">
+			<option value="Sede1"> Sede1 </option>
+			<option value="Sede2"> Sede2 </option>
+			<option value="Sede3"> Sede3 </option>
+		</select>
+
+		<label for="Mes"> Mes </label>
+		<select id="Mes" name="Mes">
+			<option value="Enero"> Enero </option>
+			<option value="Febrero"> Febrero </option>
+			<option value="Marzo"> Marzo </option>
+			<option value="Abril"> Abril </option>
+			<option value="Mayo"> Mayo </option>
+			<option value="Junio"> Junio </option>
+			<option value="Julio"> Julio </option>
+			<option value="Agosto"> Agosto </option>
+			<option value="Septiembre"> Septiembre </option>
+			<option value="Octubre"> Octubre </option>
+			<option value="Noviembre"> Noviembre </option>
+			<option value="Diciembre"> Diciembre </option>
+		</select>
+	</div>
+
+	<div class="content" >
+		<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	<div class="reservas" >
+		<label for="Agendado" class="nombre"> Nombre </label>
+		<input type="text" id="Agendado" name="Agendado"> <br>
+
+		<label for="HoraInicio" class="hora"> Inicio </label>
+		<select id="HoraInicio" name="HoraInicio" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<label for="HoraFin" class="hora"> Fin </label>
+		<select id="HoraFin" name="HoraFin" class="tiempo">
+			<option value="5"> 5 </option>
+			<option value="6"> 6 </option>
+			<option value="7"> 7 </option>
+			<option value="8"> 8 </option>
+			<option value="9"> 9 </option>
+			<option value="10"> 10 </option>
+			<option value="11"> 11 </option>
+			<option value="12"> 12 </option>
+			<option value="13"> 13 </option>
+			<option value="14"> 14 </option>
+			<option value="15"> 15 </option>
+			<option value="16"> 16 </option>
+			<option value="17"> 17 </option>
+			<option value="18"> 18 </option>
+			<option value="19"> 19 </option>
+			<option value="20"> 20 </option>
+			<option value="21"> 21 </option>
+		</select>
+
+		<input type="Submit" value="Guardar" class="accion">
+		<input type="Submit" value="Borrar" class="accion">
+		<input type="Submit" value="Editar" class="accion">
+
+	</div>
+
+	</div>
+
+
+	<div class="bottomUp">
+		<div>
+			<img src="../img/icono_perfil.png" class="toggledos"> 
+			<p> Contactos </p>
+		</div>  
+	</div>
+
+	<div class="datos">
+		<div class="bottom">
+		<ul>
+			<li> <img src="../img/icono_perfil.png" alt="Wh_icon" width="40px" class="contactos"> </li>
+			<li> <p>Juan Manuel Volkmar</p> </li>
+			<li> <img src="../img/icono_perfil.png" alt="Email_Icon" width="40px" class="contactos"> </li>
+			<li> <p>Sebastian Granado Prada</p> </li>
+			<a href="#"> <img src="../img/icono_de_facebook.png" alt="Facebook_Icon" width="50px" class="boton2"> </a>
+			<a href="#"> <img src="../img/icono_instagram.png" alt="Instagram_Icon" width="50px" class="boton2"> </a> 
+			<a href="#"> <img src="../img/icono_de_youtube.png" alt="YouTube_Icon" width="50px" class="boton2"> </a> 
+		</ul>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		const card = document.querySelector('.navegador');
+		const cardtoggle = document.querySelector('.toggle');
+		cardtoggle.onclick = function(){
+			card.classList.toggle('active');
+		}
+	</script>
+
+	<script type="text/javascript">
+		const final = document.querySelector('.datos');
+		const finaltoggle = document.querySelector('.toggledos');
+		finaltoggle.onclick = function(){
+			final.classList.toggle('active');
+		}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<div class="navegador">
+		<ul>
+			<li> <a href="../index.html"> Home </a> <img src="../img/flecha_desplegable.png" class="toggle"> </li>
+			<li> <a href="planes.html"> Planes </a> </li>
+			<li> <a href="reservas.html"> Reservas </a> </li>
+			<li> <a href="bioseguridad.html"> Bioseguridad </a> </li>
+			<li> <a href="noticias.html"> Noticias </a> </li>
+			<li> <a href="gym_chat.html"> Nosotros </a> </li>
+			<li> <a href="pokemon.html"> Pokemon API </a> </li>
+			<a href="login.html" class="boton"> Ingresar </a> </li>
+		</ul>
+	</div>
+
+	<div class="content">
+		<div class="ImgLateral">
+			<picture>
+				<source srcset="../img/personal-weight-training-in-the-gym-royalty-free-image-1568020980.jpg" media="(max-width: 1024px)">
+				<source srcset="../img/imagen_de_arnold.jpeg" media="(max-width: 1025px">
+				<img src="../img/imagen_de_arnold.jpeg">
+			</picture>
+		</div>
+
+	<div class="Izq">
+		<div class="TituloLogin">
+			<h1> Iniciar Sección </h1>
+			<p> ¿No tienes cuenta? <a href="crear_cuenta.html"> Crear cuenta </a> </p>
+		</div>
+
+		<div class="EspacioLogin">
+			<label for="Correo"> Correo Electronico </label> <br>
+			<input type="text"  id="Correo" name="Correo"> <br>
+
+			<label for="Contraseña" class="Contra"> Contraseña </label> <br>
+			<input type="password" name="Contraseña" id="Contraseña" class="Contra2"> <br>
+
+		</div>
+
+		<br><br>
+		<input type="Submit" value="INGRESAR" class="Ingresar">
+
+		<br>
+		<a href="#" class="olvidar"> Olvide la contraseña </a>
+
+	</div>
+	
+	<div class="bottomUp">
+		<div>
+			<img src="../img/icono_perfil.png" class="toggledos"> 
+			<p> Contactos </p>
+		</div>  
+	</div>
+
+	<div class="datos">
+		<div class="bottom">
+		<ul>
+			<li> <img src="../img/icono_perfil.png" alt="Wh_icon" width="40px" class="contactos"> </li>
+			<li> <p>Juan Manuel Volkmar</p> </li>
+			<li> <img src="../img/icono_perfil.png" alt="Email_Icon" width="40px" class="contactos"> </li>
+			<li> <p>Sebastian Granado Prada</p> </li>
+			<a href="#"> <img src="../img/icono_de_facebook.png" alt="Facebook_Icon" width="50px" class="boton2"> </a>
+			<a href="#"> <img src="../img/icono_instagram.png" alt="Instagram_Icon" width="50px" class="boton2"> </a> 
+			<a href="#"> <img src="../img/icono_de_youtube.png" alt="YouTube_Icon" width="50px" class="boton2"> </a> 
+		</ul>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		const card = document.querySelector('.navegador');
+		const cardtoggle = document.querySelector('.toggle');
+		cardtoggle.onclick = function(){
+			card.classList.toggle('active');
+		}
+	</script>
+
+	<script type="text/javascript">
+		const final = document.querySelector('.datos');
+		const finaltoggle = document.querySelector('.toggledos');
+		finaltoggle.onclick = function(){
+			final.classList.toggle('active');
+		}
+	</script>
+
+</body>
+</html>

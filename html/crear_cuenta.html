@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Crear Cuenta</title>
+	<link rel="stylesheet" type="text/css" href="../css/crear_cuenta.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<div class="navegador">
+		<ul>
+			<li> <a href="../index.html"> Home </a> <img src="../img/flecha_desplegable.png" class="toggle"> </li>
+			<li> <a href="planes.html"> Planes </a> </li>
+			<li> <a href="reservas.html"> Reservas </a> </li>
+			<li> <a href="bioseguridad.html"> Bioseguridad </a> </li>
+			<li> <a href="noticias.html"> Noticias </a> </li>
+			<li> <a href="gym_chat.html"> Nosotros </a> </li>
+			<li> <a href="pokemon.html"> Pokemon API </a> </li>
+			<a href="login.html" class="boton"> Ingresar </a> </li>
+		</ul>
+	</div>
+
+
+		<div class="ImgLateral">
+			<picture>
+			  <source srcset="../img/girl_gym.jpg" media="(max-width: 1445px)">
+			  <source srcset="../img/imagen_de_instagramer_fitnes.jpeg">
+			  <img src="../img/imagen_de_instagramer_fitnes.jpeg" width="450px">
+			</picture>
+		</div>
+
+
+
+	<div class="contenido">
+		<div class="TituloCrear">
+			<h1> Crear Cuenta </h1>
+			<p> ¿Ya tienes cuenta? <a href="login.html"> Ingresar Ahora </a> </p>
+		</div>
+
+
+	<div class="EspacioCrear">
+		<label for="Nombres"> Nombres </label> <br>
+		<input type="text" id="Nombres" name="Nombres"> <br> <br> 
+
+		<label for="Apellidos"> Apellidos </label> <br> 
+		<input type="text" id="Apellidos" name="Apellidos"> <br> <br>
+
+		<label for="Nacimiento"> Fecha de nacimiento </label> <br>
+		<input type="date" name="Nacimiento" id="Nacimiento"> <br> <br>
+
+		<label for="Tipo"> TIPO </label> <br>
+		<select id="Tipo" name="Tipo" class="select">
+			<option value="Cedula de Ciudadania"> C.C. Cedula de Ciudadania </option>
+			<option value="Cedula de Extranjeria"> C.E. Cedula de Extranjeria </option>
+			<option value="Tarjeta de Identidad"> T.I. Tarjeta de Identidad </option>
+		</select>
+
+		<label for="Documento"> Documento </label>
+		<input type="number" id="Documento" name="Documento"> <br> <br>
+
+		<label for="Telefono"> Numero de Telefono </label> <br>
+		<input type="number" id="Telefono" name="Telefono"> <br> <br>
+
+		<label for="Correo Electronico"> Correo Electronico </label> <br>
+		<input type="email" id="Correo Electronico" name="Correo Electronico"> <br> <br>
+
+		<label for="ContraseñaInicio"> Contraseña </label> <br>
+		<input type="password" id="ContraseñaInicio" name="ContraseñaInicio"> <br> <br>
+
+	</div>
+
+	<div class="Terminos">
+		<input type="checkbox" id="Condiciones" name="Condiciones">
+		<label for="Condiciones"> Accepto los terminos y condiciones </label> <br> <br>
+	</div>
+
+	<input type="Submit" value="CREAR CUENTA" class="CrearCuenta">
+		
+	</div>
+
+	<div class="bottomUp">
+		<div>
+			<img src="../img/icono_perfil.png" class="toggledos"> 
+			<p> Contactos </p>
+		</div>  
+	</div>
+
+	<div class="datos">
+		<div class="bottom">
+		<ul>
+			<li> <img src="../img/icono_perfil.png" alt="Wh_icon" width="40px" class="contactos"> </li>
+			<li> <p>Juan Manuel Volkmar</p> </li>
+			<li> <img src="../img/icono_perfil.png" alt="Email_Icon" width="40px" class="contactos"> </li>
+			<li> <p>Sebastian Granado Prada</p> </li>
+			<a href="#"> <img src="../img/icono_de_facebook.png" alt="Facebook_Icon" width="50px" class="boton2"> </a>
+			<a href="#"> <img src="../img/icono_instagram.png" alt="Instagram_Icon" width="50px" class="boton2"> </a> 
+			<a href="#"> <img src="../img/icono_de_youtube.png" alt="YouTube_Icon" width="50px" class="boton2"> </a> 
+		</ul>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		const card = document.querySelector('.navegador');
+		const cardtoggle = document.querySelector('.toggle');
+		cardtoggle.onclick = function(){
+			card.classList.toggle('active');
+		}
+	</script>
+
+	<script type="text/javascript">
+		const final = document.querySelector('.datos');
+		const finaltoggle = document.querySelector('.toggledos');
+		finaltoggle.onclick = function(){
+			final.classList.toggle('active');
+		}
+	</script>
+
+</body>
+</html>

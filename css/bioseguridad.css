@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Patrick+Hand&display=swap');
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+.navegador ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 3px;
+	background-color: #333;
+	overflow: hidden;
+	width: 99.58%;
+}
+
+.navegador li{
+	float: left;
+}
+
+.navegador li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	margin: 10px;
+	text-decoration: none;
+	border-radius: 2px;
+	font-family: 'Playfair Display', serif;
+}
+
+.toggle{
+	width: 32px;
+	float: right;
+	margin-top: -30px;
+	margin-left: 5px;
+	display: none;
+}
+
+.navegador li a:hover{
+	background-color: #e0d3c4;
+	color: black;
+	font-size: 16px;
+}
+
+.boton{
+	background-color: #d9ab57;
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	margin: 10px;
+	text-decoration: none;
+	border-radius: 2px;
+	font-family: 'Playfair Display', serif;
+}
+
+.boton:hover{
+	background-color: #e0d3c4;
+	color: black;
+	font-size: 16px;
+}
+
+
+@media only screen and (max-width: 892px) {
+  /* For mobile phones: */
+
+  .navegador li{
+    width: 100%;
+  }
+  .navegador{
+  	width: 99.59%;
+  	height: 80px;
+  	overflow: hidden;
+  }
+
+  .toggle{
+  	display: block;
+  	float: left;
+  	margin-left: 30%;
+  	padding: 6px;
+  	margin-top: -55.7px;
+  	transition: 0.8s;
+  }
+}
+
+@media only screen and (max-width: 892px) {
+  /* For mobile phones: */
+  .navegador .boton{
+    width: 87%;
+  }
+
+}
+
+.navegador.active{
+	height: auto;
+}
+
+
+.navegador.active .toggle{
+	transform: rotate(180deg);
+	transition: 0.8s;
+}
+
+.ImgBio{
+	float: left;
+	background-color: #e0d3c4;
+	margin: 3% 8%; 
+	border-radius: 5px;
+}
+
+.ImgBio img{
+	margin: 2% 2%;
+	border-radius: 5px;
+	width: 500px;
+}
+
+@media only screen and (max-width: 1309px) {
+  /* For mobile phones: */
+  .ImgBio{
+  	float: none;
+  	margin: 0px;
+  	display: inline;
+  	width: 100%;
+  	display: inherit;
+  	padding: 1%;
+  }
+
+  .ImgBio Img{
+  	width: 100%;
+  	margin: 0px;
+  }
+
+}
+
+.TextoL{
+	width: 40%;
+	margin: 6% 10%;
+	padding: 10px;
+	position: absolute;
+	left: 38%;
+}
+
+.TextoL H1{
+	font-family: 'Patrick Hand', cursive;
+	font-size: 40px;
+	color: #d9ab57;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.TextoL h2{
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.TextoL p{
+	width: 80%;
+	padding: 10px;
+	margin-left: 50px;
+	font-family: 'Playfair Display', serif;
+	font-size: 16.5px;
+}
+
+.content{
+	position: relative;
+	overflow: hidden;
+}
+
+.botonI{
+	padding: 10px;
+	float: left;
+	margin-top: 50px;
+}
+
+.botonI input{
+	font-family: 'Playfair Display', serif;
+	width: auto;
+	height: 50px;
+	font-size: 15px;
+	background-color: #e0d3c4;
+	border-radius: 5px;
+}
+
+.botonI input:hover{
+	background-color: #d9ab57;
+	border-bottom: 4px solid #333;
+}
+
+.botonC{
+	padding: 10px;
+	float: right;
+	margin-top: 50px;
+}
+
+.botonC input{
+	font-family: 'Playfair Display', serif;
+	width: 230px;
+	height: 50px;
+	font-size: 15px;
+	background-color: #e0d3c4;
+	border-radius: 5px;
+}
+
+.botonC input:hover{
+	background-color: #d9ab57;
+	border-bottom: 4px solid #333;
+}
+
+@media only screen and (max-width: 1309px) {
+  /* For mobile phones: */
+  .TextoL{
+  	position: relative;
+  	left: 0px;
+  	width: 100%;
+  	margin: 0px;
+  }
+
+  .TextoL h1{
+  	width: 96%;
+  	margin-top: 5%;
+  	font-size: 300%;
+  	text-align: center;
+  }
+
+  .TextoL h2{
+  	width: 80%;
+  	font-size: 120%;
+  	margin-left: 7.8%;
+  }
+
+  .TextoL p{
+  	margin-left: 7.8%;
+  	font-size: 110%;
+  }
+
+  .botonI{
+  	float: none;
+  	padding: 1%;
+  }
+
+  .botonI input{
+  	width: 80%;
+  	margin-left: 8%;
+  	font-size: 150%;
+  }
+
+  .botonC{
+  	float: none;
+  	padding: 1%;
+  	margin-top: 1%;
+  }
+
+  .botonC input{
+  	width: 80%;
+  	margin-left: 8%;
+  	font-size: 150%;
+  	margin-bottom: 5%;
+  }
+
+}
+
+.datos{
+	position: relative;
+	margin-top: 3%;
+}
+
+
+.boton2{
+	background-color: #e0d3c4;
+	float: right;
+	display: block;
+	text-align: center;
+	padding: 8px 10px;
+	margin: 10px;
+	text-decoration: none;
+	border-radius: 5px;
+	font-family: 'Playfair Display', serif;
+	margin-top: 20px;
+}
+
+.boton2:hover{
+	background-color: #f2ece4;
+	color: black;
+	font-size: 16px;
+}
+
+.bottom ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 3px;
+	background-color: #333;
+	overflow: hidden;
+}
+
+.bottom li{
+	color: white;
+	float: left;
+	display: block;
+	text-align: center;
+	margin: 5px;
+	margin-left: 25px;
+	text-decoration: none;
+	border-radius: 2px;
+	font-family: 'Playfair Display', serif;
+}
+
+.contactos{
+	margin-top: 25px;
+}
+
+.bottom li p{
+	margin-top: 33px;
+}
+
+@media only screen and (max-width:1250px) {
+  /* For mobile phones: */
+  .datos{
+  	top: 0px;
+    width: 100%;
+    height: auto;
+  }
+
+  .bottom li{
+  	float: left;
+  }
+
+}
+
+.toggledos{
+	width: 20px;
+	float: right;
+	margin-top: -35px;
+	margin-left: 120px;
+	display: none;
+}
+
+.bottomUp p{
+	display: none;
+}
+
+@media only screen and (max-width:718px) {
+  /* For mobile phones: */
+  .datos{
+  	top: 0px;
+    width: 100%;
+    height: auto;
+    display: none;
+    margin-top: 0px;
+  }
+
+  .bottom li{
+  	float: none;
+  	padding: 4px;
+  }
+
+  .bottom li img{
+  	width: 16%;
+  	margin: 10px;
+  	margin-top: 24px;
+  	float: left;
+  }
+
+  .bottom li p{
+  	font-size: 100%;
+  }
+
+  .bottom a{
+  	padding: 5px;
+  	display: inline-block;
+  	background-color: #e0d3c4;
+  	width: 95%;
+  	border-radius: 5px;
+  	margin: 5px;
+  }
+
+  .boton2 {
+  	float: none;
+  	margin-left: 40%;
+  }
+
+.toggledos{
+  	float: left;
+  	display: block;
+  	width: 32px;
+  	padding: 5px;
+  	margin: 0px;
+  	margin-top: -1.3%;
+  	margin-left: 30%;
+  	transition: 1s;
+  }
+
+  .bottomUp{
+  	background-color:#d9ab57;
+  	width: 94%;
+  	padding: 3%;
+  	margin: 0px;
+  }
+
+  .bottomUp div{
+  	align-content: center;
+  	width: 80%;
+  	height: 30px;
+  	padding: 2%;
+  	padding-left: 0px;
+  	padding-right: 0px;
+  	margin-left: 10%;
+  	margin-right: 10%;
+  }
+
+  .bottomUp p{
+  	font-family: 'Playfair Display', serif;
+  	display: inline-block;
+  	float: right;
+  	margin-right: 20%;
+  	margin-top: 1%;
+  	color: black;
+  	font-size: 100%;
+  	width: 30%;
+  	height: 30px;
+  }
+
+  .datos.active{
+		display: block;
+		transition: 0.8s;
+	}
+
+}
