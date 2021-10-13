@@ -440,3 +440,88 @@ picture{
     border-radius: 50%;
     cursor: pointer;
 }
+.solo h1{
+    background-color: #b1cf5f;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 0px;
+}
+
+.datos{
+    width: 40%;
+    padding: 2%;
+    margin: 3%;
+}
+
+.datos p{
+    background-color: #ffb703;
+    border-radius: 30px;
+    padding: 2%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: 0.6s;
+    border-left: 0px solid #023047;
+}
+
+.datos p:hover{
+    border-left: 10px solid #023047;
+    transition: 0.7s;
+}
+
+@media only screen and (max-width: 1275px) {
+    .visualizaciont{
+        display: initial;
+        position: relative;
+    }
+    .poke{
+        float: left;
+        width: 40%;
+        margin: 5% 4%;
+    }
+    .solo{
+        float: left;
+        width: 90%;
+    }
+    .creditos{
+        float: right;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1137px){
+    .versus{
+        display: initial;
+    }
+    .descripcion{
+        margin: 2% 5%;
+        width: 86%;
+        height: 230px;
+    }
+    .descripcion input{
+        margin-top: 3%;
+    }
+    .descripcion h1{
+        text-align: center;
+    }
+    .visualizacion{
+        margin: 2% 5%;
+        width: 86%;
+    }
+}
+
+@media only screen and (max-width: 885px){
+    .solo{
+        width: 100%;
+        margin: 3% 0%;
+    }
+    .lateral{
+        width: 50%;
+    }
+    .datos{
+        width: 30%;
+        margin: 0%;
+    }
+}
