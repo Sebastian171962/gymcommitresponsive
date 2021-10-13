@@ -139,3 +139,8 @@ function fondo(contenedor,id){
         contenedor.style.backgroundColor =  colorOne;
     }
 }
+window.onload = function recargar(){
+    duelo();
+    equipo();
+    poketotal();
+}
