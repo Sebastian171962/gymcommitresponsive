@@ -313,3 +313,130 @@ picture{
     border-radius: 30px;
     transition: 0.7s;
 }
+.poke h1{
+    text-align: center;
+    width: 92%;
+    padding: 2%;
+    margin: 2%;
+    background-color: #1b512d;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    border-radius: 30px;
+}
+
+.poke p{
+    text-align: center;
+    width: 100%;
+    padding: 2%;
+    margin: 2%;
+    background-color: #1c7c54;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    border-radius: 30px;
+}
+
+.creditos{
+    background-color:#219ebc;
+    margin: 2% 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    padding: 0px;
+}
+
+.descripcionp{
+    padding: 2%;
+    width: 45%;
+    height: auto;
+}
+.descripcionp h1{
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.descripcionp p{
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.foto{
+    background-color: #023047;
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+.foto:hover{
+    background-image: url(../img/fondof.gif);
+    width: 200px;
+    height: 200px;
+    margin-top: -60px;
+    transition: 0.7s;
+}
+
+.foto img{
+    width: 95%;
+    margin-top: -13px;
+}
+
+.type{
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.t{
+    width: 40%;
+}
+
+.type2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.t2{
+    margin-top: 0px;
+    width: 44%;
+}
+
+.solo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0% 5%;
+}
+
+.lateral{
+    background-color: #1c7c54;
+    border-radius: 30px;
+    text-align: center;
+    width: 40%;
+    height: 320px;
+    padding: 2% 1%;
+}
+
+.solo img{
+    width: 300px;
+    margin-top: -60px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    transition: 0.7s;
+}
+
+.solo img:hover{
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
