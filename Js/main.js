@@ -110,3 +110,17 @@ function poketotal(){
     estado(imagen,vida,ataque,defensa,ataquee,defensae,velocidad,id);
     fondo(imagen,id);
 }
+function estado(imagen,vida,ataque,defensa,ataquee,defensae,velocidad,id){
+    fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
+    .then(response => response.json())
+    .then(data => {
+      nombre.innerHTML = data.name;
+      imagen.src = data.sprites.front_default;
+      vida.innerHTML = "Hp: " + data.stats[0].base_stat;
+      ataque.innerHTML = "Attack: " + data.stats[1].base_stat;
+      defensa.innerHTML = "Defense: " + data.stats[2].base_stat;
+      ataquee.innerHTML = "Special Attack: " + data.stats[3].base_stat;
+      defensae.innerHTML = "Special Defense" + data.stats[4].base_stat;
+      velocidad.innerHTML = "Speed: " + data.stats[5].base_stat;
+     })
+}
