@@ -52,3 +52,45 @@ function traerDatos(contenedor,nombre,ataque,defensa,id){
       defensa.innerHTML = "Defense: " + data.stats[2].base_stat;
      })
 }
+function equipo(){
+    let aleatoriot = Math.round(Math.random()*(100-1)+parseInt(1));;
+    let aleatoriot2 = Math.round(Math.random()*(100-2)+parseInt(1));;
+    let aleatoriot3 = Math.round(Math.random()*(100-3)+parseInt(1));;
+    let aleatoriot4 = Math.round(Math.random()*(100-4)+parseInt(1));;
+
+    pokemon1 = document.getElementById("team1");
+    pokemon2 = document.getElementById("team2");
+    pokemon3 = document.getElementById("team3");
+    pokemon4 = document.getElementById("team4");
+
+    name1 = document.getElementById("team1p");
+    name2 = document.getElementById("team2p");
+    name3 = document.getElementById("team3p");
+    name4 = document.getElementById("team4p");
+
+    ataque1 = document.getElementById("teama1");
+    ataque2 = document.getElementById("teama2");
+    ataque3 = document.getElementById("teama3");
+    ataque4 = document.getElementById("teama4");
+
+    defensa1 = document.getElementById("teamd1");
+    defensa2 = document.getElementById("teamd2");
+    defensa3 = document.getElementById("teamd3");
+    defensa4 = document.getElementById("teamd4");
+
+    backg = document.getElementById("t1");
+    backg2 = document.getElementById("t2");
+    backg3 = document.getElementById("t3");
+    backg4 = document.getElementById("t4");
+
+    traerDatos(pokemon1,name1,ataque1,defensa1,aleatoriot);
+    traerDatos(pokemon2,name2,ataque2,defensa2,aleatoriot2);
+    traerDatos(pokemon3,name3,ataque3,defensa3,aleatoriot3);
+    traerDatos(pokemon4,name4,ataque4,defensa4,aleatoriot4);
+
+    fondo(backg,aleatoriot);
+    fondo(backg2,aleatoriot2);
+    fondo(backg3,aleatoriot3);
+    fondo(backg4,aleatoriot4);
+
+}
