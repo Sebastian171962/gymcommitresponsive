@@ -78,5 +78,8 @@ public class App {
             System.out.println("         / /\\ \\       Tu signo zodiacal es: " + sZodiacal);
             System.out.println("        / /__\\ \\");
             System.out.println("        \\/____\\/");
+            System.out.println("");
+            otraVez(name);
+            }
 
 
