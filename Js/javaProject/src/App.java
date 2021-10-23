@@ -17,5 +17,6 @@ public class App {
         System.out.println("        / /__\\ \\      ¿Como deseas que te llame?");
         System.out.println("        \\/____\\/");
         System.out.println("");
+        name = user.nextLine();
 
 
