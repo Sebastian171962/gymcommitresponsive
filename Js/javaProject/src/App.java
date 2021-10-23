@@ -59,5 +59,8 @@ public class App {
 
         return option;
     }
+    static void queHacer(int eleccion, String name){                              //Dice Que Hacer Al Programa
+        if(eleccion == 1){
+            String sZodiacal ="";
 
 
